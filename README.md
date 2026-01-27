@@ -31,9 +31,26 @@ cargo run
 
 ## Keyboard Shortcuts
 
-- `Cmd+F`: Focus search bar
-- `Cmd+1`: Switch to Folders view
-- `Cmd+2`: Switch to Tags view
+- **Global**
+  - `Cmd+F`: Focus search bar
+  - `Cmd+1`: Switch to Folders view
+  - `Cmd+2`: Switch to Tags view
+  - `Esc` (in search): Clear search and remove focus
+  - `Cmd+.`: Toggle hidden files
+
+- **Folders view**
+  - `Cmd+N`: New file in current folder
+  - `Cmd+D`: New folder in current folder
+  - `Cmd+Alt+F`: Toggle "search in current directory" mode
+  - `Cmd+B`: Toggle directory tree sidebar
+  - `Cmd+K` or `Cmd+Shift+.`: Collapse directory tree to current folder path
+  - `↑ / ↓`: Move selection
+  - `Enter`: Open selected directory or file (uses system association)
+  - `←` or `Backspace`: Go to parent directory (when search is not focused)
+
+- **Tags view**
+  - `↑ / ↓`: Move selection
+  - `Enter`: Open selected file (uses system association)
 
 ## Architecture
 
