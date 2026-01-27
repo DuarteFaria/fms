@@ -1,0 +1,30 @@
+# Compiled output
+/target/
+/debug/
+/release/
+
+# Cargo package manager
+**/Cargo.lock
+
+# If you're building libraries and want to commit Cargo.lock, remove the line above.
+# For binaries, it's often fine to commit Cargo.lock; adjust to your workflow.
+
+# Backup and generated files
+**/*.rs.bk
+*.log
+
+# IDE / editor settings
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / CLion / RustRover
+.idea/
+
+# macOS
+.DS_Store
+
+# Misc
+*.swp
+*.swo
+*.tmp
